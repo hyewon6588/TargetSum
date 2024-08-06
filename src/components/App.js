@@ -1,13 +1,9 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 
 class App extends React.Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.text}>Target Sum</Text>
-      </View>
-    );
+    return <View style={styles.container}></View>;
   }
 }
 
